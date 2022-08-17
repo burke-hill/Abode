@@ -6,13 +6,20 @@
     android:layout_height="match_parent"
     tools:context=".Availability">
 
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="1378dp"
-        android:layout_height="923dp"
-        android:layout_marginStart="4dp"
-        android:layout_marginTop="4dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+    <WebView
+        android:id="@+id/webview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+
+
+
+
+
+

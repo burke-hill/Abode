@@ -26,5 +26,10 @@ class MainActivity : AppCompatActivity() {
 
     }
 
+    fun galleryLink(view: View) {
+
+        val intent = Intent(this, Gallery::class.java)
+        startActivity(intent)
+    }
 
 }
